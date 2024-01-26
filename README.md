@@ -1,5 +1,8 @@
 # Go-based API Rate Limiter using Token Bucket Algorithm
 
+![image](https://github.com/sahildotexe/go-rate-limit/assets/71642465/58d3f02f-16ad-4121-9dc4-a0e5d0129b58)
+
+
 ## Overview
 
 This project is a simple API rate limiter implemented in Go. The rate limiting mechanism is based on the Token Bucket Algorithm. Users need to obtain a client key by accessing the `/token` endpoint and then include this key in the header (`X-Client-Key`) of subsequent requests to the `/ping` endpoint.
